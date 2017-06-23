@@ -21,7 +21,7 @@ function startSlider() {
 
 
 function showSlide(id) {
-	stopLoop();
+	stopSlider();
 	if(id > count) {
 			id = 1;
 		} else if(id < 1) {
